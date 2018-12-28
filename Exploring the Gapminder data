@@ -1,0 +1,5 @@
+#EDA no code
+#To produce correlation
+
+sns.heatmap(df.corr(), square=True, cmap='RdYlGn')
+#http://seaborn.pydata.org/generated/seaborn.heatmap.html
