@@ -1,0 +1,5 @@
+import pandas as pd
+df= pd.read_csv('gapminder.csv')
+
+df.boxplot('life','Region')
+plt.show()
