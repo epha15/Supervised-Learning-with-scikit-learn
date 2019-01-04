@@ -1,0 +1,6 @@
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import cross_val_score
+
+ridge = Ridge(alpha=0.5, normalize=True)
+cv_results = cross_val_score(ridge, X, y, cv=5)
+print(cv_results)
